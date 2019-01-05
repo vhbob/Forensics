@@ -1,0 +1,19 @@
+main: com.vhbob.forensics.Main
+name: Forensics
+version: 1.0
+author: Vhbob
+description: A forensics RP plugin
+commands:
+  forensics:
+    description: The base forensics command
+    aliases: [frnsc, frsc]
+  bleed:
+    description: Toggle the bleed effect
+  StopRecorder:
+    description: Stop the recorder immediatly
+permissions:
+  forensics.exempt:
+    default: false
+depend:
+- Herochat
+- Essentials

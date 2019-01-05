@@ -1,0 +1,45 @@
+#Welcome to Forensics 1.0!
+
+#Time in ticks until the DNA of the player fades from the interactable object and is no
+#longer identifiable
+dna-decay: 800
+
+#Time in ticks until the blood fades away. -1 means the blood never goes away
+blood-decay: -1
+
+#Name of the scanner item
+scanner-name: '&A&LScanner'
+
+#Name of the scrambler item
+scrambler-name: '&A&LScrambler'
+
+#Name of the recorder item
+recorder-name: '&A&LRecorder'
+
+#Name of the recorded chat
+recorded-name: '&A&LRecorded'
+
+#How much power the scrambler has before breaking.
+scrambler-power: 5
+
+#Time in ticks until the power of the scrambler goes down.
+scrambler-time: 20
+
+#Time in ticks of how long a recorder can go for.
+recorder-limit: 200
+
+#If a chat message starts with a certain tag, it will not show up in the recorder.
+recorder-exempt: ['TAG1', 'TAG2']
+
+#PLEASE USE MATERIALS FROM: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#Material of scanner
+scanner-material: 'SHEARS'
+
+#Material of scrambler item
+scrambler-material: 'COMPASS'
+
+#Material of recorder item
+recorder-material: 'BOOK'
+
+#Material of recorded chat
+recorded-material: 'BOOK'
